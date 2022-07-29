@@ -23,6 +23,11 @@ const theme = extendTheme(
           _focus: {
             boxShadow: 'none !important',
           }
+        },
+        a: {
+          _focus: {
+            boxShadow: 'none !important',
+          }
         }
       },
     },

@@ -13,19 +13,19 @@ const Dashboard: FunctionComponent = (props) => {
           Connect Button
         </Button>
       </Flex>
-      <Flex direction={{base:"column", lg:"row"}} w="100%" mt="40px" align="center">
-        <Text fontSize={{base:"40px", lg:"80px"}} w="100%" textAlign="center">
+      <Flex direction={{ base: "column", lg: "row" }} w="100%" mt="40px" align="center">
+        <Text fontSize={{ base: "40px", lg: "80px" }} w="100%" textAlign="center">
           <span style={{ color: "rgb(254, 206, 0)" }}>Pick-a-Hand Game</span> Coming Soon
         </Text>
         <Flex direction="column" align="center" w="100%" fontFamily="'Orbitron', sans-serif" fontWeight="500">
           <video width="560px" autoPlay muted loop>
             <source src="./fiverr_test_0728_brandonwcrocket_rev10001-0168.mp4" type="video/mp4" />
           </video>
-          <Stack direction={{base:"column", lg:"row"}} w="100%" mt="40px" spacing="40px" justify="center" align="center">
+          <Stack direction={{ base: "column", lg: "row" }} w="100%" mt="40px" spacing="40px" justify="center" align="center">
             <Button w="165px" h="50px" border="3px solid yellow" fontSize="18px">Left</Button>
             <Button w="165px" h="50px" border="3px solid red">Right</Button>
           </Stack>
-          <Stack direction={{base:"column", lg:"row"}}  w="100%" mt="40px" spacing="40px" justify="center" align="center">
+          <Stack direction={{ base: "column", lg: "row" }} w="100%" mt="40px" spacing="40px" justify="center" align="center">
             <Button w="165px" h="50px" border="3px solid rgb(226, 232, 240)">0.1</Button>
             <Button w="165px" h="50px" border="3px solid rgb(226, 232, 240)">0.15</Button>
             <Button w="165px" h="50px" border="3px solid rgb(226, 232, 240)">0.2</Button>
