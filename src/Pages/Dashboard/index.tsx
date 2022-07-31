@@ -10,7 +10,7 @@ const Dashboard: FunctionComponent = (props) => {
     >
       <Flex w="100%" justify="flex-end" mt="40px">
         <Button w="180px" h="50px" bg="white" color="black">
-          Connect Button
+          Connect Wallet
         </Button>
       </Flex>
       <Flex direction={{ base: "column", lg: "row" }} w="100%" mt="40px" align="center">
@@ -21,7 +21,10 @@ const Dashboard: FunctionComponent = (props) => {
           <video width="560px" autoPlay muted loop>
             <source src="./fiverr_test_0728_brandonwcrocket_rev10001-0168.mp4" type="video/mp4" />
           </video>
-          <Stack direction={{ base: "column", lg: "row" }} w="100%" mt="40px" spacing="40px" justify="center" align="center">
+          <Text fontSize={{ base: "20px", lg: "40px" }} w="100%" textAlign="center">
+            <span style={{ color: "purple" }}>Pick a hand</span> with a 50/50 chance of 2x your bet each time!
+          </Text>
+          {/* <Stack direction={{ base: "column", lg: "row" }} w="100%" mt="40px" spacing="40px" justify="center" align="center">
             <Button w="165px" h="50px" border="3px solid yellow" fontSize="18px">Left</Button>
             <Button w="165px" h="50px" border="3px solid red">Right</Button>
           </Stack>
@@ -32,7 +35,7 @@ const Dashboard: FunctionComponent = (props) => {
           </Stack>
           <Flex w="80%" mt="40px" justify="center">
             <Button w="100%" h="50px" border="3px solid rgb(226, 232, 240)" fontSize="24px">F l i p</Button>
-          </Flex>
+          </Flex> */}
         </Flex>
       </Flex>
     </Flex>
